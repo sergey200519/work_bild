@@ -1,0 +1,30 @@
+.header {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.header .container {
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .logo {
+    width: 165px;
+    height: 33px;
+}
+.header .container nav{
+    width: 350px;
+}
+.header .container nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+.header .container h1,
+.header .container nav a{
+    font-size: var(--font-size_menu_item);
+    font-weight: var(--font-weight_menu_item);
+}
+.header .container nav a:hover,
+.header .container nav a:focus {
+    cursor: pointer;
+    color: var(--orange);
+}

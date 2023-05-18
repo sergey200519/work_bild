@@ -1,0 +1,48 @@
+.about_box {
+    display: flex;
+    justify-content: space-between;
+    max-height: 413px;
+}
+.about_left {
+    position: relative;
+    width: 644px;
+}
+.about_right {
+    width: 556px;
+}
+.about_left img {
+    border-radius: var(--border-radius_for_all);
+}
+.about_left .bac_grey {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 136px;
+    padding: 20px;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about_left .bac_grey p {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgb(255, 255, 255);
+    max-width: 330px;
+}
+.about_left .bac_grey button {
+    padding: 14px 32px;
+    color: rgb(255, 255, 255);
+    border: 3px solid #FF9900;
+    border-radius: var(--border-radius_for_all);
+    background: none;
+    font-weight: 700;
+    font-size: 16px;
+    width: 175px;
+    height: 60px;
+    line-height: 20px;
+    text-align: center;
+}
