@@ -4,16 +4,26 @@
     justify-content: space-between;
     margin-bottom: 20px;
 }
+.work .steps li {
+    cursor: pointer;
+}
+.active_step {
+    color: var(--orange);
+}
 .work .work_box {
     display: flex;
     justify-content: space-between;
-    height: 368px;
+    gap: 30px;
+    min-height: 368px;
 }
 .work_box .work_left {
     width: 644px;
 }
 .work_box img {
+    display: block;
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .work_box .work_right {
     width: 556px;
@@ -23,6 +33,6 @@
 .work_box .work_right h3 {
     margin-bottom: 15px;
 }
-.work_box .work_right button {
-    margin-top: auto;
+.work_box .work_right p {
+    margin-bottom: 54px;
 }

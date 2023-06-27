@@ -18,8 +18,20 @@
     display: flex;
     justify-content: space-between;
 }
+.header .mobail_menu {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 23px;
+}
+.header .mobail_menu span {
+    width: 30px;
+    height: 3px;
+    background-color: rgb(0, 0, 0);
+}
 .header .container h1,
-.header .container nav a{
+.header .container nav a {
     font-size: var(--font-size_menu_item);
     font-weight: var(--font-weight_menu_item);
 }

@@ -6,6 +6,8 @@
     --border-radius_for_all: 15px;
     --border-radius_for_form: 5px;
     --background-color_color: #302F2F;
+
+    --width_slide: 100%;
 }
 
 * {
@@ -13,7 +15,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-    color: black;
+    color: rgb(0, 0, 0);
+}
+.none {
+    display: none !important;
 }
 a {
     text-decoration: none;
@@ -34,7 +39,7 @@ textarea {
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
-    border: 1px black solid;
+    border: 1px rgb(0, 0, 0) solid;
     height: 38px;
 }
 h2 {

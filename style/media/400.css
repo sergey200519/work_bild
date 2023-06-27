@@ -1,0 +1,105 @@
+@media (max-width: 400px) {
+    section {
+        margin-top: 40px;
+    }
+    h2 {
+        font-size: 32px;
+        margin-bottom: 15px;
+    }
+
+    .header h1 {
+        display: none;
+    }
+
+    .swipper {
+        height: 359px;
+    }
+    .swipper h2 {
+        width: 100%;
+        left: 0;
+        text-align: center;
+    }
+    .swipper p {
+        left: 0;
+        width: 100%;
+        text-align: center;
+        top: 119px;
+        line-height: 22px;
+    }
+    .swipper button {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+        width: fit-content;
+    }
+
+    .about_box {
+        gap: 15px;
+    }
+    .about_left .bac_grey p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .about_right p {
+        line-height: 17px;
+    }
+
+    .work .work_box {
+        gap: 20px;
+    }
+    .work_box .work_left {
+        height: 240px;
+    }
+    .work .steps {
+        margin-bottom: 15px;
+    }
+    .work_box .work_right h3 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    .work_box .work_right p {
+        line-height: 17px;
+        margin-bottom: 15px;
+    }
+
+    .questions_box .item {
+        padding: 15px 0;
+        font-size: 14px;
+    }
+    .questions_box .item p {
+        max-width: 230px;
+        line-height: 17px;
+    }
+    .questions_box .item p::before,
+    .questions_box .item p::after {
+        width: 20.65px;
+        height: 0.76px;
+        top: 0 !important;
+        bottom: 0 !important;
+        margin: auto;
+    }
+    .questions_box .item p::before {
+        right: 24px;
+        transform: rotate(45deg);
+        top: 29px;
+    }
+    .questions_box .item p::after {
+        right: -5px;
+        transform: rotate(-45deg);
+        top: 29px;
+    }
+
+    .footer .container {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .footer .container .right {
+        gap: 15px;
+    }
+    .footer .right p {
+        text-align: left;
+    }
+}

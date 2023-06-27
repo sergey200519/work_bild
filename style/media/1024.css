@@ -1,0 +1,48 @@
+@media (max-width: 1024px) {
+    .swipper h2 {
+        font-size: 60px;
+    }
+    .swipper p {
+        top: 206px;
+        max-width: 450px;
+    }
+
+    .about_box {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .about_left,
+    .about_right {
+        width: 100%;
+    }
+    .about_left {
+        height: 500px;
+    }
+    .about_box .bac_grey {
+        height: 104px;
+        padding: 20px;
+    }
+    .about_left .bac_grey p {
+        max-width: 433px;
+    }
+
+    .work .work_box {
+        flex-direction: column;
+        gap: 25px;
+    }
+    .work_box .work_left {
+        width: 100%;
+        height: 450px;
+    }
+    .work_box .work_right {
+        width: 100%;
+    }
+    .work_box .work_right h3,
+    .work_box .work_right p {
+        margin-bottom: 20px;
+    }
+
+    .footer {
+        padding: 15px 0;
+    }
+}

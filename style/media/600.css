@@ -1,0 +1,10 @@
+@media (max-width: 600px) {
+    .work .steps {
+        width: 100%;
+        gap: 0;
+    }
+
+    .questions_box .item p {
+        max-width: 230px;
+    }
+}

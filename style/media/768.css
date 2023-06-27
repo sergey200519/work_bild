@@ -1,0 +1,52 @@
+@media (max-width: 768px) {
+    .header .container nav {
+        display: none;
+    }
+    .header .mobail_menu {
+        display: flex;
+    }
+
+    p,
+    .about_left .bac_grey p,
+    .work {
+        font-size: calc( (100vw - 320px)/(768 - 320) * (16 - 14) + 14px);
+    }
+
+    .swipper h2,
+    .swipper p {
+        max-width: calc( (100vw - 320px)/(768 - 320) * (670 - 290) + 290px);
+        left: 20px;
+    }
+    .swipper p {
+        max-width: calc( (100vw - 320px)/(768 - 320) * (678 - 290) + 290px);
+    }
+    .swipper h2 {
+        font-size: calc( (100vw - 320px)/(768 - 320) * (60 - 24) + 24px);
+    }
+    .swipper p {
+        font-size: calc( (100vw - 320px)/(768 - 320) * (24 - 18) + 18px);
+    }
+    .swipper button {
+        left: 20px;
+        bottom: 20px;
+    }
+
+    .about_left .bac_grey {
+        height: 116px;
+        padding: 10px 20px;
+    }
+    .about_left .bac_grey p {
+        max-width: 350px;
+    }
+
+    .application_form {
+        height: fit-content;
+    }
+    .application_form .application_form_bottom {
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+    .application_form .application_form_bottom input {
+        width: 100%;
+    }
+}

@@ -28,11 +28,11 @@
     transform: rotate(-45deg);
     top: 29px;
 }
-.questions_box .item:hover p::before,
-.questions_box .item:hover p::after,
-.questions_box .item:focus p::before,
-.questions_box .item:focus p::after {
-    transition: 0.6s;
+.questions_box .item p::before,
+.questions_box .item p::after,
+.questions_box .item p::before,
+.questions_box .item p::after {
+    transition: 0.8s;
 }
 .questions_box .item:hover p::before {
     transform: rotate(-45deg);

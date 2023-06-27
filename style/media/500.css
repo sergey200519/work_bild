@@ -1,0 +1,22 @@
+@media (max-width: 500px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .header .container {
+        padding: 15px;
+    }
+
+
+    .about_left,
+    .about_left .bac_grey {
+        height: 182px;
+    }
+    .about_left .bac_grey {
+        padding: 10px;
+        flex-direction: column;
+    }
+    .about_left .bac_grey p {
+        max-width: 100%;
+    }
+}
