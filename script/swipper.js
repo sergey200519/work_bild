@@ -8,7 +8,7 @@ class Swipper {
         let self = this
         setInterval(() => {
             self.next_slide()
-        }, 3000)
+        }, 5000)
     }
 
     resize_slide(sw) {
