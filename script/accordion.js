@@ -11,6 +11,7 @@ class Accordion {
     hideAll() {
         this.accordionText.forEach(element => {
             element.style.maxHeight = "0px"
+            element.style.marginTop = "0px"
         });
         this.accordionItems.forEach(element => {
             element.classList.remove("question_active")
@@ -22,6 +23,7 @@ class Accordion {
         el.classList.add("question_active")
         let item = el.querySelector(".text")
         item.style.maxHeight = `${item.scrollHeight}px` //"fit-content"
+        item.style.marginTop = "20px"
 
     }
 }
