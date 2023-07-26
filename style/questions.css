@@ -1,11 +1,15 @@
+.questions .container h2 {
+    height: 46px;
+}
 .questions_box {
     display: flex;
     flex-direction: column;
 }
 .questions_box .item {
     position: relative;
-    padding: 19.5px 0;
+    padding: 19.4px 0;
     border-bottom: 1px #000000 solid;
+    cursor: pointer;
 }
 .questions_box .item:first-child {
     border-top: 1px #000000 solid;
@@ -38,5 +42,16 @@
     transform: rotate(-45deg);
 }
 .questions_box .item:hover p::after {
+    transform: rotate(45deg);
+}
+.questions_box .item p.text {
+    margin-top: 20px;
+    overflow: hidden;
+    transition: 0.8s all;
+}
+.questions_box .question_active p::before {
+    transform: rotate(-45deg);
+}
+.questions_box .question_active p::after {
     transform: rotate(45deg);
 }
